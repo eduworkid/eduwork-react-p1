@@ -3,6 +3,7 @@ import ErrorMessage from "./ErrorMessage";
 import { Card, Form, Button } from "react-bootstrap";
 import SuccessMessageAlert from "./SuccessMessageAlert";
 import messagesId from "../messages/id";
+import NavbarBerita from "./Navbar";
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -71,12 +72,13 @@ const Register = () => {
 
   return (
     <>
+      <NavbarBerita />
       <div
         style={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          height: "50vh",
+          height: "70vh",
         }}
       >
         <Card style={{ width: "18rem" }}>
