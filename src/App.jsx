@@ -1,10 +1,10 @@
-import Dashboard from "./page/dashboard";
+import Register from "./components/Register";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <Dashboard />
+      <Register />
     </div>
   );
 }
