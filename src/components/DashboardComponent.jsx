@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Dashboard = () => {
+const DashboardPage = () => {
   return (
     <div>
-      <h1>Dashboard</h1>
+      <h1>dashboard</h1>
       <Link to="/form" className="link">
-        Tugas Form Registrasi
+        Tugas Form
       </Link>
       <br />
       <Link to="/portal-berita" className="link">
@@ -16,4 +16,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default DashboardPage;
