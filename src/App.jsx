@@ -4,7 +4,7 @@ import DashboardPage from "./components/DashboardComponent";
 import Contack from "./components/Router/Contack";
 import About from "./components/Router/About";
 import { Route, Routes } from "react-router-dom";
-import Redux from "./components/Redux";
+import Redux from "./components/Redux/Redux";
 import "./App.css";
 
 function App() {
