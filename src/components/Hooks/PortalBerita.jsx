@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import NavbarBerita from "./Navbar";
+import NavbarBerita from "../Router/Navbar";
 
 const PortalBerita = () => {
   const [articles, setArticles] = useState([]);

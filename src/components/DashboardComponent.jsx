@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import NavbarBerita from "./Navbar";
+import NavbarBerita from "./Router/Navbar";
 const DashboardPage = () => {
   return (
     <div>
@@ -12,6 +12,10 @@ const DashboardPage = () => {
       <br />
       <Link to="/portal-berita" className="link">
         Tugas Portal Berita
+      </Link>
+      <br />
+      <Link to="/tugas-redux" className="link">
+        tugas redux
       </Link>
     </div>
   );

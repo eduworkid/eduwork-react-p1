@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import ErrorMessage from "./ErrorMessage";
 import { Card, Form, Button } from "react-bootstrap";
 import SuccessMessageAlert from "./SuccessMessageAlert";
-import messagesId from "../messages/id";
-import NavbarBerita from "./Navbar";
+import messagesId from "../../messages/id";
+import NavbarBerita from "../Router/Navbar";
 
 const Register = () => {
   const [formData, setFormData] = useState({
