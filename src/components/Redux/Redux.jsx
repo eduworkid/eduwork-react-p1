@@ -1,6 +1,6 @@
 import Counter from "./Pembahasan/Counter";
 import { Provider } from "react-redux";
-import store from "../../app/Store";
+import store from "../../app/Store.js";
 
 const Redux = () => {
   return (
